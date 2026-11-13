@@ -1,0 +1,399 @@
+Gold and DXY intraday playbook v1.1 | 13 November 2026 | EAT
+
+CURRENT PREFERENCES — apply these before the older general templates below.
+• Intraday only. Execution candidate: Gold (normally OANDA:XAUUSD). DXY (normally TVC:DXY) is context. Use the same feed, session boundaries and candle times for comparison. Other pairs only if requested.
+• Review W/D/H4/H1/M30/M15 on both. Broad zones first, H1/H4 structural stop and main target, M30 mandatory, M15 for closed-candle confirmation. No M5. Check wide view → zoom for key OHLC → wide view again. If permitted direct chart access is actually available, switch to the saved DXY layout in the same tab and restore Gold. The current user platform's capabilities and policies apply. Do not default to whole-computer control. If using screenshots, identify them as snapshots; if a required chart or news check is missing, say exactly which, and withhold a live verdict.
+• Check news and calendar with sources, release times converted to EAT, and verified results. State data source, timestamps and delays. OANDA tick volume is feed-specific. Show profile type, anchor/window, settings, POC, VAH and VAL when verifiable, and what they change. For a defined leg or event, a fixed-range profile is useful. Do not invent profile levels. Manual Fibonacci retracement can test pullback location; state the anchors. Neither is an entry trigger.
+• Two readings at one timestamp before the outcome: (1) apply the playbook, (2) make an independent structural assessment including the first-retest model where applicable. Give each verdict, evidence, agreement/disagreement and preferred scenario. An independent view may reject the playbook idea; neither can fabricate a signal. Other AI verdicts are not evidence.
+• Decision table: eligibility now; higher-timeframe zone/status; M30 and M15 conditions and supporting OHLC; conditional vs executable entry; structural stop and why; first opposing obstacle and R (checkpoint, not an automatic target); main H1/H4 target and R; extreme target and R when anchored plus what acceptance unlocks it; precise price to pass above for longs or below for shorts and why; costs, invalidation and expiry. No default 1.5R. Do not count the extreme as the main target to rescue poor R. Recalculate all figures from the same executable entry and original stop after confirmation.
+• Current journal preference supersedes the expanded record template in section 13: keep the default log simple. Record reported side, entry, original stop, actual exit(s), gross/net R and the running total. Add an execution time, costs or one useful lesson if available. Keep missing data unknown, do not infer a fill, and keep ideas/passes out of realized results. No elaborate journal or automatic sync.
+• Personal risk limits and position status must be supplied, not inferred. The user makes all trading decisions; no order placement, modification or continuous monitoring.
+• These rules describe how to study markets and compare conditional scenarios; use only workflows permitted by the receiving product. Do not claim profile, charts, news, or candles were inspected unless they actually were.
+
+CHART CONVENTIONS
+The trader’s style is intraday. Exclude scalping setups from Gold and FX reviews. Use H4 and H1 to define the premise, the swing that would invalidate it, and realistic session targets. Use M30 to assess the setup and M15 to confirm entry. Grade reward/risk using the structural stop and the first meaningful opposing zone after costs. If the trade only qualifies by tightening the stop to a minor M15 swing, call WAIT.
+
+1. **Check the wider chart before and after zooming in.** Identify the controlling swing, relevant session extremes and first opposing zone. After inspecting individual candles, return to the wider view on the same timeframe and check where the entry, structural stop and first target sit before grading the setup.
+
+2. **Use the saved DXY layout in the same TradingView tab.** Switch from the saved Gold layout to the saved DXY layout, verify the symbol, feed, timeframe and loaded candles, then switch back to the saved Gold layout.
+
+3. **Show OHLC for the candles that matter.** Report the open, high, low and close of the higher-timeframe zone test, the M30 break or reclaim, and the M15 execution trigger when one forms. Include each candle’s timeframe, opening date and time in EAT, whether it has closed, and what its close shows relative to the level.
+
+## Standing instructions for Gold setups
+
+For every Gold setup, show the executable or explicitly conditional entry, initial structural stop, main H1/H4 target and its R, and the first obstacle and its R. Give the worst acceptable entry and say pass above it for a long or below it for a short. Explain the cutoff and costs, with no universal minimum R assumed. If the prices cannot yet be anchored, say WAIT and name the missing evidence. Timestamp the playbook call and independent first-retest call before the outcome, state agreement or disagreement and why, and give the preferred action. Mark the swing before the H1 break, assess M30 acceptance and completed M15 rejection on the first return, and retire the breakout if H1 closes back inside. Re-entry after taking profit requires fresh qualification. Use optional tools selectively and log both calls, including passes, separately from actual trades. Risk per trade, daily loss limit and session-end handling remain for the trader to specify.
+
+FULL PLAYBOOK v1.1
+**Version 1.1 | Revised 13 November 2026 | EAT (Africa/Nairobi, UTC+3)**
+
+This playbook brings together the original portable trading memory, our established analysis process, and the responsibilities and technical additions agreed in this chat. It is a working reference for future reviews. It contains no live trade recommendation or reusable historical price levels.
+
+The analysis framework is ready to use. Personal risk settings remain unconfirmed, and supplementary filters are candidates for testing rather than proven improvements. A+ describes setup quality under our rules; it is not a probability or a guarantee.
+
+**Working sequence:** Verify charts and news -> map overall key zones -> establish structure and range -> assess liquidity, sessions and zone behaviour -> identify the setup model -> assess M30 -> confirm on M15 -> reassess entry, structural risk and nearby obstacles -> state BUY/SELL/WAIT/NO TRADE -> record and review actual results.
+
+## 1. Scope and non-negotiable rules
+
+- Focus on intraday Gold/XAUUSD. Analyse DXY independently as a confirmation instrument. Other execution candidates, including Silver, require a separate user request.
+
+- Follow **Weekly -> Daily -> H4 -> H1 -> M30 -> M15** for Gold and DXY. M30 is mandatory. M15 is the execution timeframe. No M5 analysis or scalping.
+
+- Start with overall Weekly/Daily/H4 zones. Anchor intraday areas in H4/H1 structure, use M30 to assess the intermediate move, and M15 to confirm an entry.
+
+- Use SMC as the core method, supported by meaningful price action, support/resistance, supply/demand, sessions, news, volatility and trade economics.
+
+- Prefer a few well-qualified opportunities and capital preservation. A new day does not require a new trade.
+
+- Treat every dated quote, zone and setup as historical until reverified. Never carry yesterday's levels forward as current evidence without checking them.
+
+- Distinguish observations, interpretations and hypotheses. Never invent a trigger, institutional motive, probability, fill or result.
+
+- Several descriptions of the same move are not independent confluence. A sweep, MSS and FVG created by one displacement are related evidence.
+
+- A developing scenario is not an entry. A structural stop cannot be narrowed to manufacture reward/risk or widened after entry to rescue a failed idea.
+
+## 2. Responsibilities
+
+| Area | Assistant | User |
+|---|---|---|
+| Market preparation | Verify charts, news, timing and data limitations; complete the analysis | Request the review and disclose any current position |
+| Overall zones and intraday structure | Map, rank and explain relevant areas and conflicting evidence | Flag broker-price differences relevant to execution |
+| Setup qualification | Identify model, confirmation, grade, entry eligibility and cancellation | Distinguish watch areas from entry conditions |
+| Trade plan | Provide structural entry/stop/targets, obstacles and reward/risk | Check executable price/spread and decide whether to trade |
+| Personal risk | Explain calculations and check against supplied limits | Choose risk limits and provide required broker/account specifications |
+| Live execution and management | Help define rules beforehand; reassess when requested | Place and manage orders and follow the chosen plan |
+| Records and improvement | Organise supplied records, calculate supported metrics and propose testable improvements | Report actual fills, exits, costs and deviations, including losses |
+
+Reviews are snapshots. The assistant does not continuously monitor the market between messages. Chart navigation is authorised; placing or modifying trades is not. Local files preserve this workspace's instructions, not account-wide memory or automatic cloud synchronisation.
+
+## 3. Start every requested review with verification
+
+Use direct controls for the in-app TradingView browser. Do not silently substitute whole-computer automation. Verify access rather than assuming that a saved layout still works; the user handles sign-in.
+
+Record the review date and time in EAT, symbol, feed and quote timestamp. After switching symbol or interval, verify that the plotted candles have actually loaded. A changed toolbar alone is insufficient. Inspect the charts themselves; header OHLC can follow a crosshair over an older candle. Verify selected candle timestamps and distinguish closed candles from developing ones. Different feeds may use different session boundaries and H4 candle start times.
+
+Check current news and the economic calendar, identifying source, publication time, release time, actual result, forecast and revisions where available. Convert event times to EAT using the correct daylight-saving convention. Do not treat an old article quote as live price or assign an unverified cause to a move.
+
+If a required chart, release or data field cannot be verified, state the precise gap and its effect on the assessment. Do not imply that an unverified live setup has been confirmed. Chart quotes are not automatically the user's executable bid/ask prices.
+
+## 4. Overall structure, ranges and key zones
+
+### Timeframe responsibilities
+
+| Timeframe | Main purpose |
+|---|---|
+| Weekly | Broad trend, major swings, previous-week extremes and major zones |
+| Daily | Current phase within the weekly structure, previous-day extremes and relevant daily areas |
+| H4 | Controlling structure, protected swings, major intraday context and zone boundaries |
+| H1 | Intraday leg, qualifying areas, nearer protected structure and first obstacles |
+| M30 | Intermediate correction or continuation, acceptance/rejection and the condition needed before execution |
+| M15 | Exact execution swing, completed trigger, displacement, retest and entry eligibility |
+
+Assess each instrument on its own structure. DXY supports or conflicts with Gold; an inverse relationship must not be assumed to operate mechanically. All six timeframes need not point the same way. Explain whether the intraday idea follows the broader trend or trades a correction within it.
+
+Establish internal and external HH/HL or LH/LL sequences, relevant BOS/MSS/CHOCH, and the protected swing whose loss changes the premise. Identify pivots before the break; do not treat a hindsight-confirmed pivot as information available earlier.
+
+Keep three ranges distinct: the overall dealing range, the current intraday leg and the execution range. State their anchors and why they matter. Premium/discount refers to the named range and its midpoint; discount in a small bullish leg can coexist with premium in a larger bearish range. Do not re-anchor merely to support a preferred direction.
+
+### Required zone map
+
+| Field | What to record |
+|---|---|
+| Zone ID and timeframe | A stable reference and its source timeframe |
+| Exact boundaries | Full structural bounds; any refined execution area is labelled separately |
+| Origin and significance | Relevant swing, support/resistance, supply/demand, qualified OB or verified FVG |
+| Status | Fresh/tested, partially/fully filled, holding/failing or invalidated, as applicable |
+| Price location | Distance, relationship to range and whether price has already visited it |
+| Approach and reaction | Correction/expansion, reaction strength, repeated tests and time inside |
+| Failure condition | Observable event that invalidates the intended role |
+| Trade implications | Bias, first obstacle, target relevance and effect on setup grade |
+
+Rank overall zones before intraday refinements. A good M15 trigger facing nearby major opposing structure does not automatically qualify as A+.
+
+## 5. Read the behaviour around a zone
+
+### Acceptance, rejection and approach
+
+Judge a boundary using completed closes, time spent beyond it, displacement and subsequent retest behaviour. A wick through resistance can become either a failed breakout or a successful continuation; the wick alone settles neither interpretation.
+
+For a rejection thesis, document the return through the boundary, structural change and failed reclaim as required by the chosen model. For continuation, document the break, evidence of holding beyond the boundary and successful retest. Specify the exact M30/M15 conditions for that review instead of relying on the vague phrase 'wait for confirmation'.
+
+Assess whether price approaches through overlapping correction or directional expansion; whether reactions grow stronger or weaker; and whether price spends increasing time inside the area. Freshness and repeated tests are characteristics to evaluate, not guarantees that a zone will hold or break on a particular visit.
+
+### Displacement and zone lifecycle
+
+Explain displacement using body size relative to recent bodies, range relative to volatility, close location, distance beyond a meaningful preidentified swing, and follow-through or rapid retracement. A large candle that immediately loses its move is different from a break that holds. New numerical thresholds require testing.
+
+For an FVG, record the three candles, timeframe and timestamps. Under our wick-based convention, a bullish gap lies between candle one's high and candle three's low when the latter is higher; a bearish gap lies between candle three's high and candle one's low when the latter is lower. The pattern is not proof that no trading occurred through those prices during the middle candle. A developing third candle does not establish a completed formation.
+
+A qualified order block needs context and the subsequent structural move; the last opposite-coloured candle alone is insufficient. Record whether boundaries use the full candle or another explicitly justified convention.
+
+Track untouched, partially filled, fully filled, holding, failing and potentially role-changing areas. Rank them by their role in the meaningful move. An inversion FVG or breaker candidate requires a documented original area, meaningful failure, the appropriate structural change and an opposite-side retest under the specified model. A filled gap is not automatically an inversion; every failed OB is not automatically a valid breaker. Midpoints and overlapping imbalances can refine location without becoming separate evidence of certainty.
+
+## 6. Liquidity, sessions, volatility and supporting context
+
+Map prior-day/week highs and lows, relevant equal highs/lows, internal/external swing references, Asian-range boundaries, London extremes and prior New York extremes. State which references have been crossed and which remain intact. Explain the structural route and obstacles to a proposed objective; an untouched high or low is not a compulsory destination.
+
+Define session windows and the feed's daily/weekly open convention. Use EAT with correct daylight-saving conversion. Consider session opens and ICT accumulation-sweep-expansion models as context or hypotheses, not compulsory daily sequences. A time window alone is not confirmation.
+
+Identify trend, range, compression, expansion or transition conditions. Use ATR or average daily range when useful and reliably available, specifying timeframe, period, smoothing or calculation window. These describe volatility, not direction. A large portion of the usual range already travelled does not impose a hard cap or automatically signal reversal.
+
+Review major event risk and actual market response. A fixed number of minutes after a release does not alone establish suitable execution conditions. New-entry suspension and resumption rules must be defined before applying them.
+
+Consider verified Treasury yields and timely real-yield information when relevant. Identify delays and distinguish nominal from real yields. These and DXY provide context; Gold's own structure remains the execution basis.
+
+## 7. Setup models
+
+| Model | Required premise | Confirmation focus | Main failure to watch |
+|---|---|---|---|
+| Trend pullback | Directional structure remains valid through a retracement into a relevant area | M30 assessment and specified M15 continuation trigger/retest | Loss of the protected structure or failure of the reclaimed area |
+| Reversal at an overall zone | Meaningful higher-timeframe location and evidence that the prior move is failing | Rejection/sweep where present, meaningful MSS/displacement and retest | Acceptance beyond the intended rejection boundary |
+| Breakout and retest | Meaningful range/structure boundary is broken | Holding beyond it and a retest that supports continuation | Return into the old range with failed recovery |
+| Role-change variant | Documented failure of an original area | Qualifying breaker/inversion formation and opposite-side retest | Loss of the new role or absence of the required structural sequence |
+
+Where present, the preferred sequence is liquidity -> sweep/inducement -> MSS/CHOCH with displacement -> retracement to the relevant area -> continuation. A sweep alone is insufficient. Use the selected model's conditions rather than forcing every trade into an identical pattern.
+
+State one ranked primary scenario and only relevant alternatives, with explicit conditions for switching. Record models separately when evaluating performance.
+
+### Independent first-retest assessment
+
+Before the break, mark the H1 swing, the price that would invalidate the premise and the main H1/H4 objective. An H1 close beyond the marked swing starts the test. Count the first subsequent return to the marked level as the first retest. Check whether M30 holds on the breakout side and whether a completed M15 rejects the attempt to reclaim the old range. An H1 close back inside retires this breakout idea. A later break or a re-entry after taking profit needs a fresh setup, trigger, stop, target and R calculation. For a short, look for a failed rally. For a long, look for a failed dip.
+
+## 8. Qualification, status and grade
+
+Before treating an entry as eligible, assess all of the following:
+
+- Meaningful overall location and a coherent H4/H1 premise.
+
+- Relevant structure, explicit range and exact invalidation reference.
+
+- Completed M30 evidence required by the model and the specified completed M15 trigger.
+
+- A structural stop and sufficient room to the first meaningful opposing area.
+
+- Reward/risk assessed at the actual eligible entry with costs included or their limitations disclosed.
+
+- Suitable session, news, volatility and spread conditions.
+
+- Compatibility with the user's known risk limits and current exposure.
+
+Optional indicators cannot compensate for a failed essential condition. Unknown spread or account parameters should be reported as unresolved execution checks rather than assumed satisfactory.
+
+**Status and grade are separate.** A promising location can remain only a watch area; a confirmed trigger can be too late to trade.
+
+| Status | Meaning |
+|---|---|
+| Watch / developing | Area or premise identified; conditions incomplete; WAIT |
+| Trigger confirmed | Specified closed-candle event verified; entry economics and other checks still need assessment |
+| Eligible entry | Required conditions and known execution checks satisfied at the stated price/time |
+| Missed / expired | Entry no longer offers the required conditions or the scenario has outlived its stated window |
+| Invalidated / no trade | The premise failed or there is no coherent eligible setup |
+
+Working descriptive grades: **A+** is the strongest fit to the defined criteria with no unresolved material qualification issue; **A** meets essential conditions with less exceptional supporting quality; **B** is developing or insufficiently qualified and remains a watch; **NO SETUP** means no coherent qualifying opportunity. Explain the actual reasons rather than assigning a numerical score or invented win probability. Exact measurable thresholds remain to be specified and tested where needed.
+
+## 9. Entry, stop, targets and management
+
+Name the exact trigger swing and candle condition. If confirmation has not formed, state what is missing. Do not give a hypothetical level the status of a confirmed order.
+
+Place the proposed stop beyond the structure that invalidates the trade, with an execution allowance appropriate to verified conditions. Do not squeeze it to improve reward/risk. If a new sweep changes the structure before entry, rebuild the plan. Once a trade is live, its stop remains binding; waiting for a later H1 close does not justify ignoring or widening it.
+
+Report three things for each intraday setup.
+
+1. Identify the first meaningful opposing obstacle, explain why price could react there, and give the R to it. State whether it is a checkpoint or whether the opposition leaves too little room to take the entry. A checkpoint alone does not require a partial exit.
+
+2. Give the main H1/H4 target, the swing or zone that justifies it, and the R to that price. If it coincides with the first obstacle, identify their shared level and R.
+
+3. For an extension, identify the next structural objective and specify which level price must clear, on which timeframe, and what would show acceptance beyond it. If no extension is supported, say so. Assess the original entry on the room available before that break.
+
+Recalculate after confirmation or any change in entry. Gross price-based reward/risk for a long is (target - entry) / (entry - stop); for a short it is (entry - target) / (stop - entry). Valid positive distances are required. These ratios are not net results. Use executable prices and the actual cost model when available; avoid double-counting spread already reflected in fills. No lot sizing or cash P/L from generic forex assumptions.
+
+Before entry, specify the management plan: any partial exits; conditions for moving a stop or trailing; response to lack of progress; news/session exit handling; and whether a fresh re-entry is allowed. Automatic breakeven at an arbitrary R multiple is a candidate to test, not an established rule. Partial exits must be reflected in actual realised R, not reported as though the entire position reached the furthest target.
+
+Expire an untriggered idea when the relevant structure changes, its intended target is reached before entry, or its specified session/event window ends. Distinguish thesis invalidation, entry expiry and the live trade's binding stop.
+
+### Main-target R and the entry price where I would pass
+
+For each setup show the planned entry, price available after M15 confirmation, structural stop, first obstacle and main H1/H4 target. Calculate both R figures from the same entry and initial stop. State the most adverse entry I would accept and which side of that price means PASS. This is a limit on a new entry. An open position has its own protective stop.
+
+For fixed target T, stop S and minimum gross reward/risk r, the boundary is (T + r × S) / (1 + r). For a long, pass above that price and round the boundary down to the broker's tradable price increment. For a short, pass below it and round up. Use an agreed minimum if one exists. Otherwise state a reasoned, setup-specific minimum as an independent judgment or use a justified structural entry boundary and show its implied R. A universal minimum has not been adopted. State if costs are included, and recompute using executable prices and known charges without double counting spread. A binding obstacle, structural limit or expiry can rule out an entry sooner. If the setup is developing, label any calculation conditional. When entry, stop or target cannot yet be anchored, report WAIT and the missing evidence.
+
+## 10. Supplementary technical toolkit
+
+Consider each tool when relevant and supported by suitable data. It is not necessary to force every tool onto every setup.
+
+| Tool | Intended contribution | Constraint |
+|---|---|---|
+| Session/fixed-range volume profile | POC, value-area boundaries and activity distribution; intermediate obstacles | Predetermine the window/settings and verify volume source |
+| Anchored VWAP | Average recorded price weighted by volume since a defined anchor | Use a consistent session/swing/event anchor; no retrospective fitting |
+| Footprint/delta/order flow | Additional recorded activity context where suitable data exists | Verify classification; estimated directional volume is not necessarily measured aggressor-side flow |
+| SMT/intermarket divergence | Non-confirmation between corresponding swings | Time-align and verify the relevant relationship; supporting evidence only |
+| Fibonacci / ICT OTE | Retracement-location reference | Explicit structural anchors; a ratio alone is not an entry |
+| RSI/MACD divergence | Optional momentum context | Require price confirmation; avoid duplicate price-derived evidence |
+| Moving averages | A simple defined trend filter if it adds value | Test against the existing structural assessment |
+| Flags, triangles, channels, double tops/bottoms | Compression, continuation or failed-break descriptions | Specify actual boundaries, confirmation and invalidation |
+| Wyckoff | Range behaviour, springs/upthrusts and tests | Avoid forced phase labels and duplicate counting with SMC |
+| Elliott Wave, harmonics, further ICT sub-models | Lower-priority, selective hypotheses | Use consistent definitions, invalidation and evidence of incremental value |
+
+Distinguish tick activity, actual traded volume and estimated buy/sell classifications. Broker-feed activity is not the complete global Gold market. TradingView's documented profile/footprint methods must not be described as direct proof of institutional orders. If COMEX futures data is used for context, identify contract, time, basis and rollover differences; do not transfer futures prices directly to spot. State unavailable data explicitly.
+
+Adding a tool does not establish that it improves results. Test additions in stages and preserve the original baseline for comparison.
+
+In the live decision, give space to evidence that changes the location, trigger, invalidation, target or verdict. A 50% retracement and the midpoint of the same swing count once. Keep lower-priority patterns in this reference. Use volume profile to assess where activity concentrated and manual Fib when measuring the pullback answers a specific question.
+
+## 11. Personal settings still to establish
+
+These fields are deliberately unfilled. The assistant can provide analysis while identifying any missing execution checks; it must not invent the settings.
+
+| Setting | Status |
+|---|---|
+| Broker and exact Gold instrument/contract | Not established |
+| Contract size, tick size/value, minimum volume and volume step | Not established |
+| Account currency and equity for sizing | Not established |
+| Risk per trade and maximum combined exposure | User to choose |
+| Daily loss limit and conditions for stopping | User to choose |
+| Re-entry limits and response to consecutive losses | To define together |
+| Trading availability, session end and overnight policy | To define for intraday execution |
+| Cost/spread acceptance criteria | To define from actual execution conditions |
+| Minimum acceptable reward/risk to the first obstacle | To define and test; no universal threshold adopted |
+| Minimum main-target R | No fixed minimum adopted. Label any setup-specific judgment and its pass price. |
+| Partial-profit, breakeven, trailing and time-exit rules | To define and test by setup type |
+| Major-event entry suspension/resumption rules | To define together |
+| Indicator parameters and quantitative filters | Record explicitly when used; validate before decisive weight |
+
+Multiple USD-related positions can concentrate exposure; opposite directions are not automatically a dependable hedge. Account for the actual portfolio when supplied.
+
+## 12. Standard review template
+
+Copy this structure into each full market review. Give the conclusion early, then the evidence, and finish with the decision table.
+
+**Snapshot:** date/time EAT; instruments/feeds; quote times; developing candles; verified access; current user position if known; material data limitations.
+
+**Verdict:** BUY / SELL / WAIT / NO TRADE; status; grade and reasons; primary model; unresolved conditions.
+
+**Overall zones:** ranked Weekly/Daily/H4 map using the zone fields in section 4, current price location and nearest opposing areas.
+
+**Timeframes:** Weekly, Daily, H4, H1, M30 and M15 findings for Gold and DXY; protected swings; overall versus internal direction; named range anchors and midpoints.
+
+**Technical evidence:** liquidity crossed/remaining; session map; approach and reaction; acceptance/rejection; displacement/follow-through; qualifying OB/FVG lifecycle; relevant supplementary evidence and its limitations.
+
+**News and conditions:** verified calendar/results; EAT timing; session/volatility regime; DXY and relevant yield context; implications for entering or waiting.
+
+**Primary plan:** exact M30 condition; M15 trigger swing/close; eligible retest area; structural stop basis; first obstacle; justified targets; reward/risk and costs; expiry and invalidation. If unformed, say so.
+
+**Alternative:** only if coherent, with the condition that activates it and the evidence required. Avoid presenting opposite directions as equally ready without explanation.
+
+**Final decision table:**
+
+| Item | Review-specific answer |
+|---|---|
+| Status and grade | [ ] |
+| Playbook and independent decisions at the same EAT timestamp | [Both calls and reasons, agreement or disagreement, and my preferred action] |
+| Preferred direction/model | [ ] |
+| Supporting overall zone | [ ] |
+| First opposing obstacle, R to it and effect on entry eligibility | [ ] |
+| Required M30 condition | [ ] |
+| Exact M15 trigger and closed/developing status | [ ] |
+| Entry area and current eligibility | [ ] |
+| Price where I would pass on a new entry | [Above for a long or below for a short, with threshold basis and cost treatment] |
+| Structural stop and basis | [ ] |
+| Main H1/H4 target, structural basis and R to it | [ ] |
+| Extension objective and required price confirmation | [ ] |
+| Costs/spread and risk checks | [ ] |
+| Invalidation, cancellation and expiry | [ ] |
+| Next event or price condition requiring reassessment | [ ] |
+
+No automatic follow-up is implied. A later review must refresh the observations.
+
+## 13. Trade record and learning process
+
+Record actual trades, untriggered ideas, missed opportunities and hypothetical examples in separate categories. Do not infer that the user entered because price touched a zone, or that a target was filled because a chart reached it.
+
+**Record template:**
+
+- Record ID, category and setup model:
+
+- Date/session/EAT times, symbol and broker/feed:
+
+- Overall zone, direction and range context:
+
+- M30 evidence and actual M15 trigger:
+
+- Planned entry, initial stop, targets, first obstacle and grade:
+
+- Planned risk basis and agreed limits:
+
+- Actual entry/fills, position size and partial exits if supplied:
+
+- Actual exit times/prices, commissions and other costs:
+
+- Stop adjustments and management decisions:
+
+- Before the outcome, timestamp both calls, the reason for any disagreement, and the preferred action. Record anticipated versus executable entry and R to the main target, the pass price, and whether it was crossed. Include consecutive qualifying opportunities and passes. Evaluate model outcomes separately from actual fills, losses, costs and adherence.
+
+- Rule adherence and deviations:
+
+- Before/after screenshots or verifiable references:
+
+- Net outcome in R; missing data clearly identified:
+
+- Favourable/adverse excursion where adequate data exists:
+
+- Analysis, execution or management lesson:
+
+Define **1R** consistently as the initial planned risk. Net realised R is the supported net monetary outcome divided by that initial monetary risk. If monetary inputs are unavailable, any price-based hypothetical R must be labelled accordingly. Do not quietly replace initial risk with a later tightened stop.
+
+Review average net R, win rate with explicit treatment of breakevens, average win/loss, drawdown and adherence. Separate results by model and relevant session/regime while disclosing sample sizes. Do not confuse a high win rate with positive expectancy or a profitable outcome with good rule adherence.
+
+During replay/testing, use information available at the time, include realistic costs and avoid hindsight-selected anchors. If one candle spans both stop and target and their order cannot be established, mark the outcome ambiguous. Never choose the favourable sequence by assumption.
+
+An initial 30-50 consistently defined examples can identify problems; it is exploratory, not proof or a quota. Test changes on subsequent opportunities, keep versioned rules, and avoid selecting only attractive historical examples. Change a small number of clearly stated conditions at a time so their effects can be assessed.
+
+## 14. Simple user updates
+
+**Start a review:** 'Fresh setup, no position' or 'In a buy/sell: entry __, stop __, targets __.'
+
+**Request reassessment:** 'Price is approaching the area / the M15 candle has closed; please verify whether the trigger and entry are still valid.'
+
+**Report a trade:** 'Buy/sell; entry and time; initial stop; actual exits; costs; whether I followed the plan.'
+
+The assistant handles the requested analysis and interpretation. The user supplies actual trading facts and retains control of risk and execution.
+
+## 15. Terminology and references
+
+| Term | Meaning used here |
+|---|---|
+| BOS | Break of the relevant identified structure |
+| MSS / CHOCH | A meaningful change in the assessed directional structure; exact pivot/close must be specified |
+| Protected swing | Swing whose loss invalidates the stated structural premise |
+| OB | Qualified order-block area, with formation and boundaries explained |
+| FVG / inversion FVG | Defined three-candle imbalance / candidate role change after qualifying failure |
+| POI | Area of interest, not an automatic entry |
+| BSL / SSL | Inferred buy-side/sell-side liquidity references around highs/lows; not an observed inventory of stops |
+| POC / VAH / VAL | Profile point of control / value-area high / value-area low |
+| VWAP | Volume-weighted average price, subject to the underlying feed |
+| ATR | Average true range, a volatility measure |
+| SMT | Intermarket swing non-confirmation used as contextual evidence |
+| OTE | ICT retracement-location concept; no standalone entry authority |
+| MAE / MFE | Maximum adverse/favourable excursion over the defined observation period |
+
+Primary user sources: the original Forex-Continuity-2026-10-09.zip memory, this chat's explicit updates, and the workspace AGENTS.md. A later explicit user instruction can amend the process. Historical reviews are examples and context, not live instructions.
+
+The following references support tool definitions and general process design; they do not validate this particular strategy's profitability. They were consulted during the discussion consolidated here:
+
+- [CME: Risk management and your trade plan](https://www.cmegroup.com/education/courses/building-a-trade-plan/risk-management-and-your-trade-plan)
+
+- [CME: Trading strategies in your trade plan](https://www.cmegroup.com/education/courses/building-a-trade-plan/trading-strategies-in-your-trade-plan)
+
+- [CME: Keep a trade log](https://www.cmegroup.com/education/courses/building-a-trade-plan/keep-a-trade-log.hideSubnav.educationIframe.html?hideAddThisExt=y&hideFooter=y&hideHeader=y&hideRightRail=y)
+
+- [TradingView: Volume profile concepts and data](https://www.tradingview.com/support/solutions/43000502040-volume-profile-indicators-basic-concepts/)
+
+- [TradingView: Anchored VWAP](https://www.tradingview.com/support/solutions/43000669764-anchored-vwap-drawing-tool/)
+
+- [TradingView: ATR](https://www.tradingview.com/support/solutions/43000501823-average-true-range-atr/)
+
+- [TradingView: Footprint calculations](https://www.tradingview.com/support/solutions/43000726164-volume-footprint-charts-a-complete-guide/)
+
+- [Wyckoff Stock Market Institute: Response and testing after an upthrust](https://www.wyckoffstockmarketinstitute.com/wyckoff_articles/Selling/selling_tests_upthrusts-2.htm)
+
+**Maintenance:** Keep this playbook and workspace instructions consistent when agreed rules change. Preserve dated versions and identify tested versus untested additions. No historical market price in a later appended review becomes a permanent trading level.

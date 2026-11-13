@@ -1,0 +1,1 @@
+Read the playbook. Before using any market prices, explain which timeframe defines my stop, what M30 and M15 each need to show, how you calculate the pass price, and what you will do if you cannot verify the charts. Tell me exactly what chart and web access you have in this chat. Do not issue a setup from the historical handoff.

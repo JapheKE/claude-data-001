@@ -1,0 +1,17 @@
+GOLD AND DXY | OPTIONAL HISTORICAL CONTINUITY
+Snapshot of 13 November 2026. NOT live prices, a live setup, current open-position status, or a complete broker history. For an independent second opinion this file is optional: give both assistants the same fresh evidence before showing either assistant the other's conclusion.
+
+LAST COMPLETED REVIEW IN THIS CHAT — FRIDAY 13 NOVEMBER 2026, 22:07 EAT
+OANDA:XAUUSD showed 3,879.940 at 22:07 EAT. H1, M30 and M15 all ended at 22:00 EAT at 3,880.845; H1 and M30 closed down, but the final M15 closed above its open. The planned sell zone at 3,894.885–3,905.970 had not been retested since the preceding review; the independent breakdown required a fresh H1 close below 3,867.670 followed by the first failed retest. Neither was confirmed. DXY was around 103.385, near the then daily high of 103.408. Both reads said WAIT. The historical first obstacle at 3,876.410 was only 0.32R away and the main target at 3,867.670 only 1.11R at the quoted price using an optimistic stop. This finding is not an instruction for a future session. The Friday plans expire at that session's close; nothing is carried forward without fresh evidence. Current position unknown.
+
+SIMPLE TRADE LOG — HISTORICAL, USER-REPORTED
+Direction | Entry | Original stop | Reported exit | Gross R at stated prices
+Long  | 4105 | 4095 | 4127 | +2.20
+Short | 4123 | 4130 | 4100 | +3.29
+Short | 4053 | 4063 | 4031 | +2.20 (original TP 4030; revised exit 4031)
+Short | 3970 | 3990 | 3925 | +2.25 (user explicitly confirmed TP)
+Short | 3900 | 3924 | 3875 | +1.04
+Baseline: +10.98R gross across these five, computed before rounding and assuming full exits at stated prices. Costs/net R and exact fills are not verified. Another October short from the 4178.780–4184.055 zone reportedly hit 4155; exact fill and initial stop unknown, excluded from R. Do not duplicate these trades on import or treat this sample as proof of an edge.
+
+SESSION HANDOFF — COPY AFTER A REVIEW IF YOU WANT TO SHARE IT
+As of [date & EAT time] | position [flat / actual side, fill, initial/current stop, targets / unknown] | feed & last closed candles [Gold and DXY] | chart/news sources [links or screenshots with times] | open conditions [if any] | invalidation/expiry [level/time] | fills since last log [only if reported]. Keep dated observations in this handoff, separate from permanent rules.
